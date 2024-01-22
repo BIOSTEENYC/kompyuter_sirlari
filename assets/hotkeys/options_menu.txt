@@ -1,0 +1,30 @@
+     Muloqot oynasi tezkor tugmalari
+F4
+Faol ro'yTagiga chizish belgisidagi elementlarni ko'rsatish
+
+Ctrl + Tab
+Yorliqlar orqali oldinga siljiting
+
+Ctrl + Shift + Tab
+Yorliqlar bo'ylab orqaga o'ting
+
+Ctrl + raqam (1–9)
+n-tabga o'ting
+
+Tab
+Variantlar orqali oldinga siljiting
+
+Shift + Tab
+Variantlar bo'ylab orqaga o'ting
+
+Alt + tagiga chizilgan harf
+Ushbu harf bilan ishlatiladigan buyruqni bajaring (yoki variantni tanlang).
+
+Boʻsh joy (Probel)
+Agar faol parametr tasdiqlash qutisi bo'lsa, katakchani belgilang yoki o'chiring
+
+Backspace
+“Boshqa saqlash” yoki “Ochish” muloqot oynasida jild tanlansa, jildni bir daraja yuqoriga oching
+
+Strelka tugmalari
+Agar faol parametr variant tugmalari guruhi bo'lsa, tugmani tanlang

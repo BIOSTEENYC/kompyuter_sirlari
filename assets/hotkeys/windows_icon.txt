@@ -1,0 +1,178 @@
+Windows belgisi tugmasi
+Start-ni oching yoki yoping.
+
+Windows belgisi  + A
+Harakat markazini oching.
+
+Windows belgisi  + B
+Fokusni bildirishnoma maydoniga o'rnating.
+
+Windows belgisi  + C
+Cortana-ni tinglash rejimida oching.
+_________________________
+Cortana faqat maʼlum mamlakatlar/mintaqalarda mavjud
+va baʼzi Cortana funksiyalari hamma joyda ham
+mavjud boʻlmasligi mumkin. Agar Cortana mavjud bo'lmasa
+yoki o'chirilgan bo'lsa, siz hali ham qidiruvdan foydalanishingiz mumkin.
+________________________
+
+Windows belgisi  + Shift + C
+Jozibalar menyusini oching.
+
+Windows belgisi  + D
+Ish stolini ko'rsatish va yashirish.
+
+Windows belgisi  + Alt + D
+Ish stolida sana va vaqtni ko'rsatish va yashirish.
+
+Windows belgisi  + E
+File Explorer-ni oching.
+
+Windows belgisi  + F
+Feedback Hub-ni oching va skrinshot oling.
+
+Windows belgisi  + G
+O'yin ochiq bo'lsa, O'yin panelini oching.
+
+Windows belgisi + Alt + B
+HDR-ni yoqing yoki o'chiring.
+Eslatma:  Xbox Game Bar ilovasining 5.721.7292.0 yoki undan yangiroq versiyasi uchun amal qiladi. Xbox Game Bar-ni yangilash uchun Microsoft Store ilovasiga oʻting va yangilanishlarni tekshiring.
+
+Windows belgisi  + H
+Diktantni boshlang.
+
+Windows belgisi  + I
+Sozlamalarni oching.
+
+Windows belgisi  + J
+Mavjud bo'lsa, diqqatni Windows maslahatiga o'rnating.
+Windows maslahati paydo bo'lganda, diqqatni Maslahatga qarating. Windows uchi bog'langan ekrandagi elementga diqqatni jalb qilish uchun klaviatura yorliqlarini yana bosish.
+
+Windows belgisi  + K
+Ulanish tezkor harakatini oching.
+
+Windows belgisi  + L
+Kompyuteringizni qulflang yoki hisoblarni almashtiring.
+
+Windows belgisi  + M
+Barcha oynalarni minimallashtiring.
+
+Windows belgisi  + O
+Qurilma yoʻnalishini bloklash.
+
+Windows belgisi  + P
+Taqdimotni namoyish qilish rejimini tanlang.
+
+Windows belgisi + Ctrl + Q
+Tez yordamni oching.
+
+Windows belgisi  + R
+Run dialog oynasini oching.
+
+Windows belgisi  + S
+Qidiruvni oching.
+
+Windows belgisi  + Shift + S
+Ekraningizning bir qismining skrinshotini oling.
+
+Windows belgisi  + T
+Vazifalar panelidagi ilovalar orasida aylanib chiqing.
+
+Windows belgisi  + U
+Kirish qulayligi markazini oching.
+
+Windows belgisi  + V
+Buferni oching.
+Eslatma
+Ushbu yorliqni faollashtirish uchun Boshlash-ni tanlang > Sozlamalar > Tizim  > Bufer va almashish buferi tarixi ostidagi almashtirish tugmachasini yoqing .
+
+Windows belgisi  + Shift + V
+Bildirishnomalar orqali o'ting.
+
+Windows belgisi  + X
+Tez ulanish menyusini oching.
+
+Windows belgisi + Y
+Windows Mixed Reality va ish stoli oʻrtasida kiritishni almashtiring.
+
+Windows belgisi  + Z
+To'liq ekran rejimida ilovada mavjud buyruqlarni ko'rsatish.
+
+Windows belgisi + nuqta (.) yoki nuqtali vergul (;)
+Emoji panelini oching.
+
+Windows belgisi  + vergul (,)
+Vaqtinchalik ish stoliga nazar tashlang.
+
+Windows belgisi  + Pauza
+Tizim xususiyatlari dialog oynasini ko'rsating.
+
+Windows belgisi  + Ctrl + F
+Kompyuterlarni qidiring (agar siz tarmoqda bo'lsangiz).
+
+Windows belgisi  + Shift + M
+Ish stolida kichraytirilgan oynalarni tiklang.
+
+Windows belgisi  + raqam
+Ish stolini oching va vazifa paneliga biriktirilgan dasturni raqam bilan ko'rsatilgan holatda ishga tushiring. Agar ilova allaqachon ishlayotgan bo'lsa, o'sha ilovaga o'ting.
+
+Windows belgisi  + Shift + raqam
+Ish stolini oching va vazifa paneliga raqam bilan ko'rsatilgan holatda biriktirilgan ilovaning yangi nusxasini ishga tushiring.
+
+Windows belgisi  + Ctrl + raqam
+Ish stolini oching va raqam bilan ko'rsatilgan holatda vazifalar paneliga biriktirilgan ilovaning oxirgi faol oynasiga o'ting.
+
+Windows belgisi  + Alt + raqam
+Ish stolini oching va raqam bilan ko'rsatilgan holatda vazifalar paneliga biriktirilgan ilova uchun O'tish ro'yxatini oching.
+
+Windows belgisi  + Ctrl + Shift + raqam
+Ish stolini oching va vazifalar panelidagi berilgan joyda joylashgan ilovaning yangi nusxasini administrator sifatida oching.
+
+Windows belgisi  + Tab
+Vazifa ko'rinishini oching.
+
+Windows belgisi  + Yuqoriga strelka
+Oynani kattalashtiring.
+
+Windows belgisi  + Pastga o'q
+Joriy ilovani ekrandan olib tashlang yoki ish stoli oynasini kichraytiring.
+
+Windows belgisi  + Chap strelka
+Ilova yoki ish stoli oynasini ekranning chap tomoniga kattalashtiring.
+
+Windows belgisi  + O'ng strelka
+Ilova yoki ish stoli oynasini ekranning o'ng tomoniga kattalashtiring.
+
+Windows belgisi  + Uy
+Faol ish stoli oynasidan tashqari hammasini minimallashtiring (ikkinchi zarbada barcha oynalarni tiklaydi).
+
+Windows belgisi  + Shift + Yuqoriga strelka
+Ish stoli oynasini ekranning yuqori va pastki qismiga cho'zing.
+
+Windows belgisi  + Shift + Pastga o'q
+Faol ish stoli oynalarini vertikal ravishda tiklang/kichraytiring, kenglikni saqlang.
+
+Windows belgisi  + Shift + Chap strelka yoki O'ng strelka
+Ish stolidagi ilova yoki oynani bir monitordan boshqasiga ko'chiring.
+
+Windows belgisi + Bo'sh joy
+Kirish tilini va klaviatura tartibini almashtiring.
+
+Windows belgisi + Ctrl + Bo'sh joy
+Oldindan tanlangan kirishga o'ting.
+
+Windows belgisi  + Ctrl + Enter
+Ekranni o'qib beruvchini yoqing.
+
+Windows belgisi + Plus (+)
+Kattalashtiruvchini oching.
+
+Windows belgisi  + oldinga chiziq (/)
+IME konvertatsiyasini boshlang.
+
+Windows belgisi + Ctrl + V
+Ochiq yelka kranlari.
+
+Windows belgisi + Ctrl + Shift + B
+Kompyuterni bo'sh yoki qora ekrandan uyg'otish.
+Windows belgisi + Alt + Enter (vazifalar panelidagi element fokusida)
