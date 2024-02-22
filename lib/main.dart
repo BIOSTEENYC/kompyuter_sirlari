@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kompyuter_sirlari/pages/home/HomePage.dart';
+import 'package:kompyuter_sirlari/pages/home/home_page.dart';
 void main(){
   runApp(const MaterialApp(
     home: Runner(),debugShowCheckedModeBanner: false,));
@@ -9,7 +9,7 @@ class Runner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HomePage();
+    return const HomePage();
   }
 }
 

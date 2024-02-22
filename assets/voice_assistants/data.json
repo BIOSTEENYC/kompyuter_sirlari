@@ -1,0 +1,38 @@
+[
+  {
+    "matn": "Cortana vazifalar panelida \"yashaydi\", lekin uni uyiga olib kirishdan oldin uni birinchi marta ishga tushirish kerak. \n \n 1. Boshlash menyusi tugmasini bosing . Bu ekraningizning pastki chap burchagidagi Windows belgisi. \n 2. Barcha ilovalar ni bosing .",
+    "rasm": "assets/voice_assistants/image1.PNG"
+  },
+  {
+    "matn": "1. Cortana-ni bosing . \n 2. Cortana tugmasini bosing . Bu Windows belgisi ustidagi doira belgisidir.",
+    "rasm": "assets/voice_assistants/image2.PNG"
+  },
+  {
+    "matn": "1. Cortana-dan foydalanish -ni bosing \n. 2. Nutq, siyoh va yozishni shaxsiylashtirish yoqilsa, Ha ni bosing . Bu Cortanaga sizni yaxshiroq bilishga yordam beradi va unga turli vazifalarni bajarishda yordam beradi. Agar bu funksiya yoqilishini istamasangiz, Yo‘q rahmat-ni tanlashingiz mumkin .",
+    "rasm": "assets/voice_assistants/image3.PNG"
+  },
+  {
+    "matn": "Endi Cortana hammasi sozlangan va foydalanishga tayyor. Qidiruv satriga shunchaki biror narsa kiriting va uning sehrli harakatlarini tomosha qiling. \n \n Windows 10 kompyuterida Cortana-ni vazifalar paneliga qanday ulash mumkin \n Garchi Cortana sizning vazifalar panelida \"yashovchi\" bo'lsa-da, u sukut bo'yicha u erda ko'rinmasligi mumkin. Agar siz Cortana ilovasini har safar kerak bo‘lganda ochmoqchi bo‘lmasangiz, uni vazifalar paneliga mahkamlash sizga biroz qo‘shimcha vaqtni tejaydi. \n \n 1. Vazifalar panelida sichqonchaning o'ng tugmachasini bosing \n 2. Cortana- ni bosing .",
+    "rasm": "assets/voice_assistants/image4.PNG"
+  },
+  {
+    "matn": "Istagan variantni bosing : \n 1. Yashirin : Bu Cortana-ni vazifalar panelidan yashiradi. \n 2. Cortana belgisini ko'rsatish : Bu vazifalar panelida Cortana doira belgisini ko'rsatadi. \n 3. Qidiruv maydonini ko'rsatish : Bu sizning vazifalar panelidagi Cortana qidiruv panelini faollashtiradi.",
+    "rasm": "assets/voice_assistants/image5.PNG"
+  },
+  {
+    "matn": "Hey Cortana sarlavhasi ostidagi yoqish/o'chirish tugmachasini bosing .",
+    "rasm": "assets/voice_assistants/image6.PNG"
+  },
+  {
+    "matn": "Endi istalgan vaqtda internetda qidirish, ob-havo maʼlumotlarini bilish yoki kechagi beysbol ballarini olishni istasangiz, “Salom, Kortana” desangiz kifoya. \n \n Cortana-ni faqat Windows 10-da ovozingizga javob berishga qanday o'rgatish kerak Siz Cortana-ni faqat sizning ovozingizga javob berishga o'rgatishingiz mumkin, shundagina o'tayotgan har bir kishi o'tib ketayotganda \"Hey Kortana\" deb baqirishi va tasodifan (yoki yomon niyat bilan) qo'shilmasligi mumkin. Buning uchun siz Cortanani ovozingizni tinglashga o'rgatish kerak. Ushbu qadamlarni boshlashdan oldin tinch joyda ekanligingizga ishonch hosil qiling. \n \n 1. Cortana-ni ochish uchun Windows + S tugmalarini birga bosing . \n 2. Notebook tugmasini bosing . Bu ekraningizning chap tomonidagi uy belgisi ostidagi kichik daftar belgisi. \n 3. Sozlamalar- ni bosing ",
+    "rasm": "assets/voice_assistants/image7.PNG"
+  },
+  {
+    "matn": "1. Mening ovozimni o'rganing- ni bosing . 2. Boshlash- ni bosing .",
+    "rasm": "assets/voice_assistants/image8.PNG"
+  },
+  {
+    "matn": "Bu yerdan Cortana sizga oltita jumlani baland ovozda aytishni buyuradi, shuning uchun ularni baland va aniq aytishingizga ishonch hosil qiling. Ishingiz tugagach, Cortana ovozingizni biladi va faqat buyruqlaringizga javob beradi.",
+    "rasm": "assets/voice_assistants/image9.PNG"
+  }
+]

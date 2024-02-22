@@ -25,38 +25,34 @@ class _DesktopState extends State<Desktop> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.blue.shade200,
       appBar: AppBar(title: const Text("Windows 10 faollashtirish")),
-      body:  Column(
+      body:  const Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Expanded(
-            flex: 1,
-            child: Container(
-              width: double.infinity,
-              color: Colors.blue,
-              child: Text(
-                  "qidiruv paneliga power shell deb yozib, Power Shell ilovasini oching.)",style: TextStyle(color: Colors.white,fontSize: 25),),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomLeft: Radius.circular(20)),
+              child: ListTile(
+                title: Text("qidiruv paneliga power shell deb yozib, Power Shell ilovasini oching"),
+                titleTextStyle: TextStyle(fontSize: 30,color: Colors.black),
+              ),
             ),
           ),
-          SizedBox(height: 3,),
-          Expanded(
-            flex: 1,
-            child: Container(
-              width: double.infinity,
-              color: Colors.blue,
-              child: Text(
-                  "Bu kodni kiring: ",style: TextStyle(color: Colors.white,fontSize: 25),),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomLeft: Radius.circular(20)),
+              child: ListTile(
+                titleTextStyle: TextStyle(color: Colors.black,fontSize: 30),
+                title: Text("Bu kodni kiring:"),
+                subtitle: Text("  irm [4](https://massgrave.dev/get) | iex   "),subtitleTextStyle: TextStyle(backgroundColor: Colors.lightGreenAccent,color: Colors.black,fontSize: 25),
+              ),
             ),
           ),
-          Expanded(
-            flex: 1,
-            child: Container(
-              width: double.infinity,
-              color: Colors.blue,
-              child: Text("irm [4](https://massgrave.dev/get) | iex",style: TextStyle(color: Colors.white,backgroundColor: Colors.black,fontSize: 25),)
-            ),
-          ),
-          Expanded(flex:4,child: SizedBox(),)
         ],
       ),
     );

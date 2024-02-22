@@ -6,12 +6,14 @@ class VirtualDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MyApp();
+    return const MyApp();
   }
 }
 
 //------------------------------------------
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -42,13 +44,21 @@ class _MyAppState extends State<MyApp> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lime,
-        title: Text('Virtual oynalar tezkor tugmalari'),
+        title: const Text('Virtual oynalar tezkor tugmalari'),
       ),
       body: ListView.builder(
-        itemCount: _lines.length,
+        itemCount: _lines.length ~/ 2,
         itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(_lines[index]),
+          return Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                title: Text(_lines[index * 2]),
+                subtitle: _lines.length > index * 2 + 1 ? Text(_lines[index * 2 + 1]) : null,
+              ),
+            ),
           );
         },
       ),

@@ -1,16 +1,10 @@
-    Vazifalar paneli tezkor tugmalari
 Shift + vazifalar paneli tugmachasini bosing
 Ilovani oching yoki ilovaning boshqa nusxasini tezda oching
-
 Ctrl + Shift + vazifalar paneli tugmachasini bosing
 Ilovani administrator sifatida oching
-
 Shift + vazifalar paneli tugmachasini o'ng tugmasini bosing
 Ilova uchun oyna menyusini ko'rsating
-
 Shift + guruhlanganni o'ng tugmasini bosing vazifalar paneli tugmasi
 Guruh uchun oyna menyusini ko'rsating
-
 Ctrl + guruhlangan vazifalar paneli tugmachasini bosing
 Guruh oynalari bo'ylab aylanish
-

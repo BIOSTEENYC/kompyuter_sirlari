@@ -1,0 +1,37 @@
+{
+  "title": "Salom do'stlar! Statistik ma'lumotlarga qaraganda 2024 - yildagi eng yaxshi antiviruslar solishtiruvida bitdefender birinchi o'rinni egalladi. Bitdefender - real vaqtda himoyalash, AI bilan jonlanish va eng asosiysi Kompyuteringiz uchun yengil bo'lgan antivirusdir.",
+  "steps": [
+    {"number": 1, "description": "O'zingizga yoqqan browserga kiring (Google Chrome, Microsoft Edge, Mozilla Firefox va hakazo).", "image": "assets/antivirus/image1.png"},
+    {"number": 2, "description": "Bitdefender saytiga tashrif buyuring. Buning uchun Qidiruv paneliga bitdefender.com/solutions/free.html deb yozing.", "image": "assets/antivirus/image2.png"},
+    {"number": 3, "description": "Free download tugmasiga bosing. Dastur avtomatik yuklab olinadi.", "image": "assets/antivirus/image3.png"},
+    {"number": 4, "description": "Yuklab oligan dastur bitdefender_online.exe fayliga kiring. U yuklamalar papkasida joylashgan bo'ladi. C:\\Users\\Biosteenyc\\Downloads", "image": "assets/antivirus/image4.png"},
+    {"number": 5, "description": "Kompyuteringizning Foydalanuvchi hisob boshqaruvi ilovasi Bitdefender qurilmangizda o'zgartirish qilishiga ruhsat berasizmi? deb so'raydi. (Yes) yoki (No). Yes ni belgilang.", "image": "assets/antivirus/image5.png"},
+    {"number": 6, "description": "Biroz kuting. Bitdefender tizimingizni o'rnatishga tayyorlaydi.", "image": "assets/antivirus/image6.png"},
+    {"number": 7, "description": "Biroz kuting. BitDefender Antivirus bazasini yuklab oladi.", "image": "assets/antivirus/image7.png"},
+    {"number": 8, "description": "Biroz kuting. Bitdefender kerakli fayllarni o'rnatish uchun paketdan chiqaradi.", "image": "assets/antivirus/image8.png"},
+    {"number": 9, "description": "O'rnatish oynasi ochiladi. Siz bitdefenderni maxfiylik siyosatiga rozilik belgisni qo'ying, anonim foydalanish ma'lumotlarini bitdefenderga yuborishdan rozilik belgisini olib tashlang INSTALL tugmasini bosing.", "image": "assets/antivirus/image9.png"},
+    {"number": 10, "description": "Biroz kuting... O'rnatilmoqda....%", "image": "assets/antivirus/image10.png"},
+    {"number": 11, "description": "O'rnatish yakunlangach SIGN IN BITDEFENDER tugmasini bosing.", "image": "assets/antivirus/image11.png"},
+    {"number": 12, "description": "Hisob yarating: Ismingizni elektron-pochtangizni@gmai.com prarolingizni kiriting va rozilik tugmasini bosing va CREATE ACCOUNT tugmasiga bosing.", "image": "assets/antivirus/image12.png"},
+    {"number": 13, "description": "View Optionga bosing.", "image": "assets/antivirus/image13.png"},
+    {"number": 14, "description": "Enable Basic Protection ga bosing.", "image": "assets/antivirus/image14.png"}
+  ],
+  "conclusion": "Tayyor.",
+  "images": [
+    "assets/antivirus/image1.png",
+    "assets/antivirus/image2.png",
+    "assets/antivirus/image3.png",
+    "assets/antivirus/image4.png",
+    "assets/antivirus/image5.png",
+    "assets/antivirus/image6.png",
+    "assets/antivirus/image7.png",
+    "assets/antivirus/image8.png",
+    "assets/antivirus/image9.png",
+    "assets/antivirus/image10.png",
+    "assets/antivirus/image11.png",
+    "assets/antivirus/image12.png",
+    "assets/antivirus/image13.png",
+    "assets/antivirus/image14.png",
+    "assets/antivirus/image15.png"
+  ]
+}

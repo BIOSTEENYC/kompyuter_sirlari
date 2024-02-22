@@ -1,0 +1,22 @@
+[
+  {
+    "matn": "1. Pastki chap burchakdan Start (Windows) tugmasini tanlang.",
+    "rasm": "assets/systemupdate/image1.PNG"
+  },
+  {
+    "matn": "2. Sozlamalarga o'ting (tishli belgisi).",
+    "rasm": "assets/systemupdate/image2.PNG"
+  },
+  {
+    "matn": "3. Yangilash va xavfsizlik belgisini tanlang",
+    "rasm": "assets/systemupdate/image3.PNG"
+  },
+  {
+    "matn": "4. Chap yon panelda Windows Update yorlig'ini tanlang (dumaloq o'qlar)",
+    "rasm": "assets/systemupdate/image4.PNG"
+  },
+  {
+    "matn": "5. Yangilanishlarni tekshirish tugmasini bosing .  Agar yangilanish mavjud bo'lsa, u avtomatik ravishda yuklab olishni boshlaydi. ",
+    "rasm": "assets/systemupdate/image5.PNG"
+  }
+]

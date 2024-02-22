@@ -120,6 +120,16 @@ flutter:
      - assets/install/step26/audio.mp3
      - assets/hotkeys/
      - assets/driveSE/
+     - assets/allapps/
+     - assets/antivirus/
+     - assets/backupeandrstore/
+     - assets/browser/
+     - assets/customize/
+     - assets/e_mail/
+     - assets/printer/
+     - assets/setting_up_netowrk/
+     - assets/systemupdate/
+     - assets/voice_assistants/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

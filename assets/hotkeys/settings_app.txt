@@ -1,10 +1,4 @@
-    Sozlamalar ilovasida  klaviatura yorliqlari
 Windows belgisi + I
 Sozlamalarni oching
-
 Backspace
 Sozlamalar bosh sahifasiga qayting
-
-bilan istalgan sahifaga yozing
-qidiruv maydoni
-Qidiruv sozlamalari

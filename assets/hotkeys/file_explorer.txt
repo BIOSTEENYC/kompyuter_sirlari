@@ -1,66 +1,44 @@
- Fayl Explorer ilovasining tezkor tugmalari
 Alt + D
 Manzil satrini tanlang
-
 Ctrl + E
 Qidiruv maydonini tanlang
-
 Ctrl + F
 Qidiruv maydonini tanlang
-
 Ctrl + N
 Yangi oyna oching
-
 Ctrl + W
 Faol oynani yoping
-
 Ctrl + sichqonchani aylantirish g'ildiragi
 Fayl va papka piktogrammalarining hajmi va ko'rinishini o'zgartiring
-
 Ctrl + Shift + E
 Tanlangan jild ustidagi barcha papkalarni ko'rsatish
-
 Ctrl + Shift + N
 Yangi jild yarating
-
 Num Lock + *
 Tanlangan jild ostidagi barcha pastki papkalarni ko'rsating
-
 Num Lock + Qoʻshuv belgisi (+)
 Tanlangan jildning mazmunini ko'rsating
-
 Num Lock + minus (-)
 Tanlangan jildni yig'ish
-
 Alt + P
 Oldindan ko'rish panelini ko'rsatish
-
 Alt + Enter
 Tanlangan element uchun Xususiyatlar dialog oynasini oching
-
 Alt + →
 Keyingi jildni ko'ring
-
 Alt + ↑
 Jild joylashgan papkani ko'ring
-
 Alt + ←
 Oldingi jildni ko'ring
-
 Backspace
 Oldingi jildni ko'ring
-
 →
 Joriy tanlovni ko'rsating (agar u yiqilgan bo'lsa) yoki birinchi pastki jildni tanlang
-
 ←
 Joriy tanlovni yig'ing (agar u kengaytirilgan bo'lsa) yoki jild joylashgan papkani tanlang
-
 End
 Faol oynaning pastki qismini ko'rsating
-
 Home
 Faol oynaning yuqori qismini ko'rsating
-
 F11
 Faol oynani kattalashtirish yoki minimallashtirish

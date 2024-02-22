@@ -1,56 +1,144 @@
 import 'package:flutter/material.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/explorer_keys.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/cmd_keys.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/copying_pasting_and_other_actions.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/dialog_boxes.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/settingsapp_keys.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/taskbar_keys.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/virtual_desktops.dart';
-import 'package:kompyuter_sirlari/pages/hot_keys/swip_pages/windows_key.dart';
-class Watch extends StatelessWidget {
-   Watch({super.key});
-final _controller = PageController();
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/command_promp.dart';
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/copypaste.dart';
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/dialog_box_keys.dart';
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/explorer_app_keys.dart';
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/settings_keys.dart';
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/task_bar_keys.dart';
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/virtual_desktop.dart';
+import 'package:kompyuter_sirlari/pages/hot_keys/test_key/windows_icon.dart';
+class HotKeyScreenSaver extends StatelessWidget {
+   const HotKeyScreenSaver({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green,
-      body: Container(
-        decoration: const BoxDecoration(
-            borderRadius: BorderRadius.all(Radius.circular(20))
-        ),
-        child: Row(
-          children: [
-            const Expanded(
-              flex: 1,
-              child: RotatedBox(quarterTurns: 1,child: FittedBox(fit:BoxFit.fitWidth,child: Text("Yuqoriga va pastga surish orqali mundarijani ko'ring.")),),),
-            Expanded(
-              flex: 14,
-              child: Container(
-                width: double.infinity,
-                decoration: const BoxDecoration(
-                ),
-                child: PageView(
-                  scrollDirection: Axis.vertical,
-                  controller: _controller,
-                  children:  const [
-                    CopyingPastingAndOtherActions(),
-                    WindowsKey(),
-                    CmdKeys(),
-                    DialogBoxes(),
-                    ExplorerKeys(),
-                    VirtualDesktops(),
-                    TaskbarKeys(),
-                    SettingsAppKeys(),
-                  ],
-                ),
+      appBar: AppBar(title: const Text("Tezkor tugmalar"),),
+      backgroundColor: Colors.green.shade50,
+      body: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("Nusxalash va qo'yish tezkor tugmalari"),
+                trailing: Image.asset("assets/hotkeys/CopyIcon.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const CopyPaste()));
+                },
               ),
             ),
-            const Expanded(
-              flex: 1,
-              child: RotatedBox(quarterTurns: 1,child: FittedBox(fit:BoxFit.fill,child: Text("<<<<     >>>>.")),),),
-          ],
-        ),
-      ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("Windows Icon tugmasi bilan bog'liq tezkor tugmalar"),
+                trailing: Image.asset("assets/hotkeys/WindowsIcon.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const WindowsIcon()));
+                },
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("Buyurqlar satri ilovasi bilam bog'liq tezkor tugmalar"),
+                trailing: Image.asset("assets/hotkeys/CMD.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const CommandPromp()));
+                },
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("Muloqot oynasi bilan bog'liq tezkor tugmalar"),
+                trailing: Image.asset("assets/hotkeys/Interface.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const DialogBoxKeys()));
+                },
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("File explorer bilan bog'liq tezkor tugmalar"),
+                trailing: Image.asset("assets/hotkeys/fileexplorer.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const ExplorerAppKeys()));
+                },
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("Virtual Ekranlar bilan bog'liq tezkor tugmalar"),
+                trailing: Image.asset("assets/hotkeys/VirtualDesktop.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const VirtualDesktop()));
+                },
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("Vazifalar paneli bilan bog'liq tezkor tugmalari"),
+                trailing: Image.asset("assets/hotkeys/TackBar.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const TaskBarKeys()));
+                },
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Material(
+              elevation: 12,
+              borderRadius: BorderRadius.circular(20),
+              child: ListTile(
+                leading: const CircleAvatar(backgroundColor: Colors.blue,),
+                title: const Text("Sozlamalar ilovasi bilan bog'liq tezkor tugmalar"),
+                trailing: Image.asset("assets/hotkeys/Settings.png"),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (_)=>const SettingsKeys()));
+                },
+              ),
+            ),
+          ),
+
+        ],
+      )
     );
   }
 }
