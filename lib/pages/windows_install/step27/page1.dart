@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-import '../../home/home_page.dart';
+import '../../home/secrets_page.dart';
 class STwentyNine extends StatefulWidget {
   const STwentyNine({super.key});
   @override
@@ -33,7 +33,7 @@ class _STwentyNineState extends State<STwentyNine> {
     return Scaffold(
       body: InkWell(
         onTap: (){
-          Navigator.pushReplacement(context, MaterialPageRoute(builder: (_)=>const HomePage()));
+          Navigator.pushReplacement(context, MaterialPageRoute(builder: (_)=>const Secrets()));
         },
         child: Container(
           height: MediaQuery.of(context).size.height,

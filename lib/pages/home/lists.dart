@@ -50,7 +50,7 @@ final List<String> texts = [
 final List<Widget>router =[
   const InstallScreenSaver(),
   const ActivatiorScreenSaver(),
-  HotKeyScreenSaver(),
+  const HotKeyScreenSaver(),
   const DiskManagement(),
   const Antivirus(),
   const Browser(),
