@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "uz.biosteenyc.kompyuter.kompyuter_sirlari"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdk 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -58,6 +58,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    buildToolsVersion '30.0.3'
 }
 
 flutter {

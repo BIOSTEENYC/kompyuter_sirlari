@@ -35,10 +35,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  audioplayers: ^5.2.1
-  fluentui_system_icons: ^1.1.222
   google_fonts: ^6.1.0
-  soundpool: ^2.4.1
+  universal_image: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -67,57 +65,6 @@ flutter:
      - assets/
      - assets/Activate/
      - assets/install/
-     - assets/install/step1/
-     - assets/install/step2/
-     - assets/install/step3/
-     - assets/install/step4/
-     - assets/install/step5/
-     - assets/install/step6/
-     - assets/install/step7/
-     - assets/install/step8/
-     - assets/install/step9/
-     - assets/install/step10/
-     - assets/install/step11/
-     - assets/install/step12/
-     - assets/install/step13/
-     - assets/install/step14/
-     - assets/install/step15/
-     - assets/install/step16/
-     - assets/install/step17/
-     - assets/install/step18/
-     - assets/install/step19/
-     - assets/install/step20/
-     - assets/install/step21/
-     - assets/install/step22/
-     - assets/install/step23/
-     - assets/install/step24/
-     - assets/install/step25/
-     - assets/install/step26/
-     - assets/install/step27/
-     - assets/install/step1/audio.mp3
-     - assets/install/step2/audio.mp3
-     - assets/install/step3/audio.mp3
-     - assets/install/step4/audio.mp3
-     - assets/install/step5/audio.mp3
-     - assets/install/step6/audio.mp3
-     - assets/install/step7/audio.mp3
-     - assets/install/step8/audio.mp3
-     - assets/install/step9/audio.mp3
-     - assets/install/step10/audio.mp3
-     - assets/install/step11/audio.mp3
-     - assets/install/step12/audio.mp3
-     - assets/install/step13/audio.mp3
-     - assets/install/step15/audio.mp3
-     - assets/install/step16/audio.mp3
-     - assets/install/step18/audio.mp3
-     - assets/install/step19/audio.mp3
-     - assets/install/step20/audio.mp3
-     - assets/install/step21/audio.mp3
-     - assets/install/step22/audio.mp3
-     - assets/install/step23/audio.mp3
-     - assets/install/step24/audio.mp3
-     - assets/install/step25/audio.mp3
-     - assets/install/step26/audio.mp3
      - assets/hotkeys/
      - assets/driveSE/
      - assets/allapps/

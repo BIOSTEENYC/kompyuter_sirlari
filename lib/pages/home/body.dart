@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:universal_image/universal_image.dart';
 
 import 'lists.dart';
 
@@ -26,7 +27,7 @@ class _AppBodyState extends State<AppBody> {
                 subtitle: CircleAvatar(
                   backgroundColor: Colors.blue,
                     radius: 80,
-                    child: Image.asset(images[index],fit: BoxFit.fill,)),
+                    child: UniversalImage(images[index],fit: BoxFit.fill,)),
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder: (_)=>router[index]));
                 },

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:universal_image/universal_image.dart';
 
 class Antivirus extends StatefulWidget {
   const Antivirus({super.key});
@@ -60,7 +61,7 @@ class _AntivirusState extends State<Antivirus> {
                       padding: const EdgeInsets.all(8.0),
                       child: Text(antivirusLines[index],style: const TextStyle(color: Colors.black,fontSize: 25),),
                     ),
-                    Image.asset(rasmLines[index]),
+                    UniversalImage(rasmLines[index]),
                   ],
                 ),
               ),

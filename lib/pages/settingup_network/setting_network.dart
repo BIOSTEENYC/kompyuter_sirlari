@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:universal_image/universal_image.dart';
 
 class SettingUp extends StatefulWidget {
   const SettingUp({super.key});
@@ -38,7 +39,7 @@ class _SettingUpState extends State<SettingUp> {
                 borderRadius: BorderRadius.circular(20),
                 child: ListTile(
                   title: Text(data[index]['matn']),
-                  subtitle: Image.asset(data[index]['rasm']),
+                  subtitle: UniversalImage(data[index]['rasm']),
                 ),
               ),
             );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kompyuter_sirlari/pages/home/secrets_page.dart';
+import 'package:universal_image/universal_image.dart';
 void main(){
   runApp(const MaterialApp(
     home: Runner(),debugShowCheckedModeBanner: false,));
@@ -20,8 +21,8 @@ class Runner extends StatelessWidget {
         ),
         child: Column(
           children: [
-            Expanded(child: Image.asset("assets/logo.png")),
-            Expanded(flex: 4,child: Image.asset("assets/icon.png",scale: 2,)),
+            Expanded(child: UniversalImage("assets/logo.webp")),
+            Expanded(flex: 4,child: UniversalImage("assets/icon.webp",scale: 2,)),
             Expanded(child: Draggable(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,

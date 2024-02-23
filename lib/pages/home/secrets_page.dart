@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:universal_image/universal_image.dart';
 
 import 'body.dart';
 class Secrets extends StatefulWidget {
@@ -42,7 +43,7 @@ class Draver extends StatelessWidget {
     return Drawer(
       child: Column(
         children: [
-          Image.asset("assets/allapps/my_logo.jpg"),
+          UniversalImage("assets/allapps/my_logo.jpg"),
           FittedBox(child: Material(borderRadius: BorderRadius.circular(20),child: Text("Hayitboyev Abdulhakim\nFlutter dasturchi\n\n Ilovaning yangi versiyasida \nnimalar b'lishini istaysiz?\n telegramdan yozing",style: TextStyle(fontSize: 30,),textAlign: TextAlign.center,))),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

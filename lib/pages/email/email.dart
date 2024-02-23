@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:universal_image/universal_image.dart';
 import 'email_notes.dart';
 class Email extends StatelessWidget {
   const Email({super.key});
@@ -21,9 +22,9 @@ class Email extends StatelessWidget {
                   title: Text(emailText[0]),
                   subtitle: Column(
                     children: [
-                      Image.asset(emailImages[0]),
-                      Image.asset(emailImages[1]),
-                      Image.asset(emailImages[2]),
+                      UniversalImage(emailImages[0]),
+                      UniversalImage(emailImages[1]),
+                      UniversalImage(emailImages[2]),
                     ],
                   ),
                 ),
@@ -42,7 +43,7 @@ class Email extends StatelessWidget {
                       borderRadius: const BorderRadius.all(Radius.circular(20)),
                       child: ListTile(
                         title: Text(emaillText[index]),  // +1 qo'shildi, shuning uchun 0-indeksli element ko'rsatilmaydi
-                        subtitle: Image.asset(emaillImages[index]),  // +3 qo'shildi, shuning uchun 0, 1 va 2-indeksli rasmlar ko'rsatilmaydi
+                        subtitle: UniversalImage(emaillImages[index]),  // +3 qo'shildi, shuning uchun 0, 1 va 2-indeksli rasmlar ko'rsatilmaydi
                       ),
                     ),
                   );

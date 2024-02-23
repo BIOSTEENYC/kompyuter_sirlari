@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:universal_image/universal_image.dart';
 
 class BackUpRestore extends StatefulWidget {
   const BackUpRestore({super.key});
@@ -39,7 +40,7 @@ class _BackUpRestoreState extends State<BackUpRestore> {
                 borderRadius: BorderRadius.circular(20),
                 child: ListTile(
                   title: Text(data[index]['matn']),
-                  subtitle: Image.asset(data[index]['rasm']),
+                  subtitle: UniversalImage(data[index]['rasm']),
                 ),
               ),
             );

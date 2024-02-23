@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:universal_image/universal_image.dart';
 import 'database.dart';
 //Disk managment oynasining asosiy qismlari ushbu widgetda joylashgan
 class Data extends StatefulWidget {
@@ -64,7 +65,7 @@ class _DataState extends State<Data> {
                               child: Stack(
                                 fit: StackFit.expand,
                                 children: [
-                                  Image.asset('assets/${dataList[index].image}',fit: BoxFit.fitWidth,),
+                                  UniversalImage('assets/${dataList[index].image}',fit: BoxFit.fitWidth,),
                                   Positioned(
                                     bottom: 10,right: 10,
                                     child: MaterialButton(onPressed: (){
@@ -79,7 +80,7 @@ class _DataState extends State<Data> {
                           );
                         });
                       },
-                      child: Image.asset('assets/${dataList[index].image}',width: MediaQuery.of(context).size.width/2,)),
+                      child: UniversalImage('assets/${dataList[index].image}',width: MediaQuery.of(context).size.width/2,)),
                 ],
               ),
             ),

@@ -15,20 +15,20 @@ import '../windows_install/Orient.dart';
 import 'package:kompyuter_sirlari/pages/backup_restore/backup_restore.dart';
 
 final List<String> images = [
-  "assets/background.png",
-  'assets/Activate/activate.png',
-  'assets/hotkeys/icon.png',
-  'assets/driveSE/icon.png',
-  'assets/antivirus/antivirus.png',
-  'assets/browser/browserinstall.png',
-  'assets/e_mail/epochta.png',
-  'assets/voice_assistants/assistants.png',
-  'assets/systemupdate/update.png',
-  'assets/backupeandrstore/bacuprestore.png',
-  'assets/setting_up_netowrk/settingupnetwork.png',
-  'assets/printer/printer.png',
-  'assets/allapps/apps.png',
-  'assets/customize/desktopcustomize.jpg',
+  "assets/background.webp",
+  'assets/Activate/activate.webp',
+  'assets/hotkeys/icon.webp',
+  'assets/driveSE/icon.webp',
+  'assets/antivirus/antivirus.webp',
+  'assets/browser/browserinstall.webp',
+  'assets/e_mail/epochta.webp',
+  'assets/voice_assistants/assistants.webp',
+  'assets/systemupdate/update.webp',
+  'assets/backupeandrstore/bacuprestore.webp',
+  'assets/setting_up_netowrk/settingupnetwork.webp',
+  'assets/printer/printer.webp',
+  'assets/allapps/apps.webp',
+  'assets/customize/desktopcustomize.webp',
 ];
 
 final List<String> texts = [

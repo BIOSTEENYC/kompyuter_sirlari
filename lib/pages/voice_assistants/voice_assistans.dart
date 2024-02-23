@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
+
+import 'package:universal_image/universal_image.dart';
 class VoiceAssistants extends StatefulWidget {
   const VoiceAssistants({super.key});
 
@@ -34,7 +36,7 @@ class _VoiceAssistantsState extends State<VoiceAssistants> {
                 borderRadius: BorderRadius.circular(20),
                 child: ListTile(
                   title: Text(data[index]['matn']),
-                  subtitle: Image.asset(data[index]['rasm']),
+                  subtitle: UniversalImage(data[index]['rasm']),
                 ),
               ),
             );

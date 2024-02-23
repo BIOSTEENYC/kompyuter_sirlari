@@ -16,8 +16,8 @@ class _PrinterState extends State<Printer> {
           title: const Text("Printerlarni ulash va sozlash"),
         ),
       body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage("assets/printer/printer.png"),fit: BoxFit.cover,colorFilter: ColorFilter.mode(Colors.white, BlendMode.colorBurn))
+        decoration:  BoxDecoration(
+          color: Colors.red[100],
         ),
         child: ListView.builder(
             itemCount: sarlavha.length,

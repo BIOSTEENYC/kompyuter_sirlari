@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:universal_image/universal_image.dart';
 
 class UpdateSytem extends StatefulWidget {
   const UpdateSytem({super.key});
@@ -36,7 +37,7 @@ class _UpdateSytemState extends State<UpdateSytem> {
                 borderRadius: BorderRadius.circular(20),
                 child: ListTile(
                   title: Text(data[index]['matn']),
-                  subtitle: Image.asset(data[index]['rasm']),
+                  subtitle: UniversalImage(data[index]['rasm']),
                 ),
               ),
             );
