@@ -1,0 +1,213 @@
+{
+  "category": [
+    {
+      "name": "Operatsion Tizimlar",
+      "items": [
+        {
+          "title": "Windows aktivatsiya qilish",
+          "link": "https://telegra.ph/Windows-aktivatsiya-qilish-07-18"
+        },
+        {
+          "title": "Windows 11 o’rnatish.",
+          "link": "https://telegra.ph/Windows-11-ornatish-07-19"
+        },
+        {
+          "title": "Windows 10 o’rnatish.",
+          "link": "https://telegra.ph/Windows-10-ornatish-07-21"
+        },
+        {
+          "title": "Windows menga yoqmaydi boshqa tizimlar bormi?",
+          "link": "https://telegra.ph/Windows-menga-yoqmaydi-boshqa-tizimlar-bormi-08-11"
+        },
+        {
+          "title": "Windowsni kompyuterga emas, Fleshkaga o’rnatsa bo’ladimi?",
+          "link": "https://telegra.ph/Windowsni-kompyuterga-emas-Fleshkaga-ornatsa-boladimi-08-12"
+        },
+        {
+          "title": "Tezkor Windows MODlari bormi?",
+          "link": "https://telegra.ph/Tezkor-Windows-MODlari-bormi-08-12"
+        }
+      ]
+    },
+    {
+      "name": "Texnik Muammolar",
+      "items": [
+        {
+          "title": "Xotira to’lib qoldi.",
+          "link": "https://telegra.ph/Xotira-tolib-qoldi-04-17"
+        },
+        {
+          "title": "Wi-FI ishlamayapti.",
+          "link": "https://telegra.ph/Wi-FI-ishlamayapti-07-24"
+        },
+        {
+          "title": "Hotspot ishlamayapti",
+          "link": "https://telegra.ph/Hotspot-ishlamayapti-07-24"
+        },
+        {
+          "title": "Bluetooth ishlamayapti",
+          "link": "https://telegra.ph/Bluetooth-ishlamayapti-07-24"
+        },
+        {
+          "title": "Quloqchinda ovoz eshitilmayapti.",
+          "link": "https://telegra.ph/Quloqchinda-ovoz-eshitilmayapti-07-24"
+        },
+        {
+          "title": "Fleshkadagi ma’lumotlarni yo’qotdim nima qilay?",
+          "link": "https://telegra.ph/Fleshkadagi-malumotlarni-yoqotdim-nima-qilay-07-25"
+        },
+        {
+          "title": "Kompyuterimdagi ma’lumotlarni yo’qotdim nima qilay?",
+          "link": "https://telegra.ph/Kompyuterimdagi-malumotlarni-yoqotdim-nima-qilay-07-26"
+        },
+        {
+          "title": "Ekran negativ ko’rinyapti nima qilay?",
+          "link": "https://telegra.ph/Ekran-negativ-korinyapti-nima-qilay-07-26"
+        },
+        {
+          "title": "Kamera ishlamayapti.",
+          "link": "https://telegra.ph/Kamera-ishlamayapti-07-27"
+        },
+        {
+          "title": "Hozirgi Dastur ‘Не отвечает’ bo’lib qoldi, nima qilay?",
+          "link": "https://telegra.ph/Hozirgi-Dastur-Ne-otvechaet-bolib-qoldi-nima-qilay-07-27"
+        },
+        {
+          "title": "Kompyuter qizib ketdi.",
+          "link": "https://telegra.ph/Kompyuter-qizib-ketdi-07-27"
+        },
+        {
+          "title": "TouchPad ishlamayapti.",
+          "link": "https://telegra.ph/TouchPad-ishlamayapti-07-27"
+        },
+        {
+          "title": "Drayverlar qanday yangilanadi?",
+          "link": "https://telegra.ph/Drayverlar-qanday-yangilanadi-08-06"
+        },
+        {
+          "title": "Sichqoncha juda tez / juda sekin ishlayapti.",
+          "link": "https://telegra.ph/Sichqoncha-juda-tez--juda-sekin-ishlayapti-08-06"
+        },
+        {
+          "title": "Ekran masshtabi qanday o’zgartiriladi?",
+          "link": "https://telegra.ph/Ekran-masshtabi-qanday-ozgartiriladi-08-06"
+        },
+        {
+          "title": "Batareya tez tugayapti.",
+          "link": "https://telegra.ph/Batareya-tez-tugayapti-08-06"
+        },
+        {
+          "title": "Kompyuter yoqilganda Dasturlar o’zi ochilib ketypati.",
+          "link": "https://telegra.ph/Kompyuter-yoqilganda-Dasturlar-ozi-ochilib-ketypati-08-06"
+        },
+        {
+          "title": "Skrinshot olsam xotiraga tushmayapti.",
+          "link": "https://telegra.ph/Skrinshot-olsam-xotiraga-tushmayapti-08-09"
+        },
+        {
+          "title": "BIOS menuga kira olmayapman.",
+          "link": "https://telegra.ph/BIOS-menuga-kira-olmayapman-08-09"
+        },
+        {
+          "title": "BOOT OPTION’(BOOT MENU)ga kira olmayapman.",
+          "link": "https://telegra.ph/BOOT-OPTIONBOOT-MENUga-kira-olmayapman-08-09"
+        }
+      ]
+    },
+    {
+      "name": "Dasturlar va Fayllar",
+      "items": [
+        {
+          "title": "Kesh fayllarni qanday tozalash mumkin?",
+          "link": "https://telegra.ph/Kesh-fayllarni-qanday-tozalash-mumkin-08-06"
+        },
+        {
+          "title": "Menda Ofis dasturlari yo’q ekan? (Word, Excel, PowerPoint)",
+          "link": "https://telegra.ph/Menda-Ofis-dasturlari-yoq-ekan-Word-Excel-PowerPoint-08-06"
+        },
+        {
+          "title": "Yaxshi musiqa playeri qaysi?",
+          "link": "https://telegra.ph/Yaxshi-musiqa-playeri-qaysi-08-07"
+        },
+        {
+          "title": "Yaxshi video playeri qaysi?",
+          "link": "https://telegra.ph/Yaxshi-video-playeri-qaysi-08-07"
+        },
+        {
+          "title": "Ekranni qanday video yozish mumkin?",
+          "link": "https://telegra.ph/Ekranni-qanday-video-yozish-mumkin-08-09"
+        },
+        {
+          "title": "YouTubedan qanday qilib video yuklab olish mumkin?",
+          "link": "https://telegra.ph/YouTubedan-qanday-qilib-video-yuklab-olish-mumkin-08-11"
+        },
+        {
+          "title": "Kompyuterda dasturlar do’koni bormi?",
+          "link": "https://telegra.ph/Kompyuterda-dasturlar-dokoni-bormi-08-11"
+        },
+        {
+          "title": "Antiviruslar men uchun kerakmi o’zi?",
+          "link": "https://telegra.ph/Antiviruslar-men-uchun-kerakmi-ozi-08-12"
+        }
+      ]
+    },
+    {
+      "name":"Boshqa",
+      "items": [
+        {
+          "title":"Kompyuterim modelini qanday bilaman?",
+          "link":"https://telegra.ph/Kompyuterim-modelini-qanday-bilaman-08-09"
+        },
+        {
+          "title":"Kompyuterimni tozalab tashlamoqchiman. Zavod.",
+          "link":"https://telegra.ph/Kompyuterimni-tozalab-tashlamoqchiman-Zavod-08-10"
+        },
+        {
+          "title":"Kompyuterim kuchsiz, meni ham o’yin o’ynagim keladi.",
+          "link":"https://telegra.ph/Kompyuterim-kuchsiz-meni-ham-oyin-oynagim-keladi-08-10"
+        },
+        {
+          "title":"Kompyuterga Play Market qo’ysa bo’ladimi?",
+          "link":"https://telegra.ph/Kompyuterga-Play-Market-qoysa-boladimi-08-10"
+        },
+        {
+          "title":"NOKIA o’yinlarini o’ynamoqchiman.",
+          "link":"https://telegra.ph/NOKIA-oyinlarini-oynamoqchiman-08-10"
+        },
+        {
+          "title":"Kompyuterim Mavzusini o’zgartirmoqchiman.",
+          "link":"https://telegra.ph/Kompyuterim-Mavzusini-ozgartirmoqchiman-08-11"
+        },
+        {
+          "title":"Kompyuter sotib olmoqchiman nimalarga e’tibor beray?",
+          "link":"https://telegra.ph/Kompyuter-sotib-olmoqchiman-nimalarga-etibor-beray-08-11"
+        },
+        {
+          "title":"Kompyuterchilar meni qanday aldashadi?",
+          "link":"https://telegra.ph/Kompyuterchilar-meni-qanday-aldashadi-08-11"
+        },
+        {
+          "title":"Keraksiz hususiyatlarni o’chirib qo’ymoqchiman.",
+          "link":"https://telegra.ph/Keraksiz-hususiyatlarni-ochirib-qoymoqchiman-08-12"
+        },
+        {
+          "title":"Kompyuterni boshqa kompyuterdan boshqarish.",
+          "link":"https://telegra.ph/Kompyuterni-boshqa-kompyuterdan-boshqarish-08-12"
+        }
+      ]
+    },
+    {
+      "name": "Biz haqimizda",
+      "items": [
+        {
+          "title": "👩‍💻Dasturchi va 📃ijodkor: Abdulhakim al-Biosteenyc.\n\n👉👉Tugmani bosing👈👈",
+          "link": "https://www.youtube.com/@Biosteenyc"
+        },
+        {
+          "title": "🎨Grafik Dizayner va 🎛BackEnd dasturchi: Elshodbek UzXtra\n\n👉👉Tugmani bosing👈👈",
+          "link": "https://www.youtube.com/@UzXtra"
+        }
+      ]
+    }
+  ]
+}
