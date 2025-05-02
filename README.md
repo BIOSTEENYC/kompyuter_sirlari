@@ -1,7 +1,9 @@
 # kompyuter_sirlari
 **Kompyuter sirlari 2.0**
 Bu ilova haqida
+
 Bu ilova quyidagi bilimlarni o'rgatadi.
+
 Windows aktivatsiya qilish
 Windows 11 o’rnatish
 Windows 10 o’rnatish
