@@ -36,4 +36,41 @@ document.addEventListener("DOMContentLoaded", () => {
   container.appendChild(leftBox);
   container.appendChild(rightBox);
   app.appendChild(container);
+
+  // Kategoriyalarni yuklash
+  fetch("data/kategoriyalar.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const grid = document.createElement("div");
+      grid.className = "category-grid";
+
+      data.Kategoriyalar.forEach((kat) => {
+        const card = document.createElement("div");
+        card.className = "category-card";
+
+        const img = document.createElement("img");
+        img.src = kat.rasm || "assets/images/widgets/card.png";
+        img.alt = kat.nomi;
+
+        const title = document.createElement("div");
+        title.className = "category-card-title";
+        title.textContent = kat.nomi;
+
+        card.appendChild(img);
+        card.appendChild(title);
+
+        card.addEventListener("click", () => {
+          console.log("Tanlangan kategoriya:", kat.nomi);
+          // Shu yerga havolalar chiqarish funksiyasi yoziladi
+        });
+
+        grid.appendChild(card);
+      });
+
+      leftOverlay.appendChild(grid);
+    })
+    .catch((err) => {
+      leftOverlay.textContent = "Kategoriyalarni yuklab bo'lmadi.";
+      console.error("JSON yuklashda xatolik:", err);
+    });
 });
