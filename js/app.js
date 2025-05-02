@@ -60,9 +60,53 @@ document.addEventListener("DOMContentLoaded", () => {
         card.appendChild(title);
 
         card.addEventListener("click", () => {
-          console.log("Tanlangan kategoriya:", kat.nomi);
-          // Shu yerga havolalar chiqarish funksiyasi yoziladi
-        });
+  console.log("Tanlangan kategoriya:", kat.nomi);
+
+  // O'ng panelni tozalaymiz (logo yo'qoladi)
+  rightOverlay.innerHTML = "";
+
+  // Havolalarni card ko‘rinishida ko‘rsatamiz
+  const list = document.createElement("div");
+  list.className = "link-list";
+
+  kat.havolalar.forEach((item) => {
+    const itemCard = document.createElement("div");
+    itemCard.className = "item-card";
+
+    const itemImg = document.createElement("img");
+    itemImg.src = item.rasm || "assets/images/widgets/card.png";
+    itemImg.alt = item.sarlavha;
+
+    const itemTitle = document.createElement("div");
+    itemTitle.className = "item-title";
+    itemTitle.textContent = item.sarlavha;
+
+    itemCard.appendChild(itemImg);
+    itemCard.appendChild(itemTitle);
+
+    itemCard.addEventListener("click", () => {
+      console.log("Tanlangan havola:", item.sarlavha);
+      // Bu yerga navbatdagi qadam — chap panelda ro'yxat, o'ngda PDF
+    });
+
+    list.appendChild(itemCard);
+  });
+
+  // Orqaga qaytish tugmasi
+  const backBtn = document.createElement("button");
+  backBtn.className = "back-button";
+  backBtn.innerHTML = "← Orqaga";
+  backBtn.setAttribute("aria-label", "Orqaga qaytish");
+
+  backBtn.addEventListener("click", () => {
+    rightOverlay.innerHTML = "";
+    rightOverlay.appendChild(logoImg);
+  });
+
+  rightOverlay.appendChild(backBtn);
+  rightOverlay.appendChild(list);
+});
+
 
         grid.appendChild(card);
       });
