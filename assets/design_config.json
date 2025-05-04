@@ -1,13 +1,16 @@
 {
   "background": {
-    "type": "gradient", // "gradient", "color", "image"
+    "type": "gradient",
+    "izoh": "Fon turi: 'color', 'gradient', yoki 'image'",
     "gradient": {
-      "colors": ["#FF5733", "#FFC300"], // linear gradient colors
+      "colors": ["#FF5733", "#FFC300"],
+      "izoh": "Linear gradient ranglari (2ta rang yetarli)",
       "begin": "topCenter",
       "end": "bottomCenter"
     },
     "image": {
       "enabled": false,
+      "izoh": "Fon rasmi yoqilganmi: true/false",
       "url": "https://example.com/background.jpg",
       "fit": "cover"
     }
@@ -15,7 +18,9 @@
 
   "papak": {
     "opacity": 0.9,
-    "decoration": "gradient", // "color", "gradient", "image"
+    "izoh": "PAPAK konteyner shaffofligi: 0.0-1.0 oralig‘ida",
+    "decoration": "gradient",
+    "izoh_decoration": "PAPAK fon turi: 'color', 'gradient', 'image'",
     "color": "#FFFFFF",
     "gradient": {
       "colors": ["#1D2671", "#C33764"],
@@ -27,12 +32,15 @@
       "url": "https://example.com/papak-bg.png",
       "fit": "cover"
     },
-    "borderRadius": "topRight" // "none", "all", "topRight", "topLeft", "bottomRight", "bottomLeft", "top", "bottom"
+    "borderRadius": "topRight",
+    "izoh_borderRadius": "Burchaklar: 'none', 'all', 'topRight', 'topLeft', 'bottomRight', 'bottomLeft', 'top', 'bottom'"
   },
 
   "tatak": {
     "opacity": 0.85,
+    "izoh": "TATAK konteyner shaffofligi: 0.0-1.0 oralig‘ida",
     "decoration": "color",
+    "izoh_decoration": "TATAK fon turi: 'color', 'gradient', 'image'",
     "color": "#F0F0F0",
     "gradient": {
       "colors": ["#00c6ff", "#0072ff"],
@@ -44,29 +52,38 @@
       "url": "https://example.com/tatak-bg.jpg",
       "fit": "cover"
     },
-    "borderRadius": "bottomLeft"
+    "borderRadius": "bottomLeft",
+    "izoh_borderRadius": "Burchaklar: 'none', 'all', 'topRight', 'topLeft', 'bottomRight', 'bottomLeft', 'top', 'bottom'"
   },
 
   "grid": {
     "crossAxisCount": 2,
-    "mainAxisCount": 3
+    "mainAxisCount": 3,
+    "izoh": "Grid boshlang‘ich o‘lchami: ustun va qator soni"
   },
 
   "font": {
     "family": "Roboto",
+    "izoh_family": "Shrift nomi",
     "size": 16,
-    "color": "#333333"
+    "izoh_size": "Matn o‘lchami (px)",
+    "color": "#333333",
+    "izoh_color": "Matn rangi"
   },
 
   "button": {
-    "shape": "circle", // or "rounded", "rectangle"
+    "shape": "circle",
+    "izoh_shape": "Tugma shakli: 'circle', 'rounded', 'rectangle'",
     "color": "#007BFF",
     "iconColor": "#FFFFFF"
   },
 
   "pageControl": {
     "enabled": true,
+    "izoh_enabled": "Sahifa boshqaruv tugmalari yoqilsinmi",
     "upKey": "W",
-    "downKey": "S"
+    "izoh_upKey": "Yuqoriga o‘tish klaviatura tugmasi",
+    "downKey": "S",
+    "izoh_downKey": "Pastga o‘tish klaviatura tugmasi"
   }
 }
