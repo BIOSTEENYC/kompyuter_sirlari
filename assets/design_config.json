@@ -1,0 +1,72 @@
+{
+  "background": {
+    "type": "gradient", // "gradient", "color", "image"
+    "gradient": {
+      "colors": ["#FF5733", "#FFC300"], // linear gradient colors
+      "begin": "topCenter",
+      "end": "bottomCenter"
+    },
+    "image": {
+      "enabled": false,
+      "url": "https://example.com/background.jpg",
+      "fit": "cover"
+    }
+  },
+
+  "papak": {
+    "opacity": 0.9,
+    "decoration": "gradient", // "color", "gradient", "image"
+    "color": "#FFFFFF",
+    "gradient": {
+      "colors": ["#1D2671", "#C33764"],
+      "begin": "topLeft",
+      "end": "bottomRight"
+    },
+    "image": {
+      "enabled": false,
+      "url": "https://example.com/papak-bg.png",
+      "fit": "cover"
+    },
+    "borderRadius": "topRight" // "none", "all", "topRight", "topLeft", "bottomRight", "bottomLeft", "top", "bottom"
+  },
+
+  "tatak": {
+    "opacity": 0.85,
+    "decoration": "color",
+    "color": "#F0F0F0",
+    "gradient": {
+      "colors": ["#00c6ff", "#0072ff"],
+      "begin": "topCenter",
+      "end": "bottomCenter"
+    },
+    "image": {
+      "enabled": false,
+      "url": "https://example.com/tatak-bg.jpg",
+      "fit": "cover"
+    },
+    "borderRadius": "bottomLeft"
+  },
+
+  "grid": {
+    "crossAxisCount": 2,
+    "mainAxisCount": 3
+  },
+
+  "font": {
+    "family": "Roboto",
+    "size": 16,
+    "color": "#333333"
+  },
+
+  "button": {
+    "shape": "circle", // or "rounded", "rectangle"
+    "color": "#007BFF",
+    "iconColor": "#FFFFFF"
+  },
+
+  "pageControl": {
+    "enabled": true,
+    "upKey": "W",
+    "downKey": "S"
+  }
+}
