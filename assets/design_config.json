@@ -65,9 +65,9 @@
   "font": {
     "family": "Roboto",
     "izoh_family": "Shrift nomi",
-    "size": 16,
+    "size": 26,
     "izoh_size": "Matn o‘lchami (px)",
-    "color": "#333333",
+    "color": "#FFFFFF",
     "izoh_color": "Matn rangi"
   },
 
